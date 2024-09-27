@@ -1,0 +1,1146 @@
+
+                                                                                                                                                       ?
+
+ ? 27/09/2024 ? ? 23:40.01 ? ? /drives/c/lab/vagrant-kubeadm-kubernetes ? ? main ? vagrant up --debug
+ INFO global: Vagrant version: 2.4.1
+ INFO global: Ruby version: 3.1.4
+ INFO global: RubyGems version: 3.3.26
+ INFO global: VAGRANT_DETECTED_OS="cygwin"
+ INFO global: VAGRANT_EXECUTABLE="C:\\Program Files (x86)\\Vagrant\\embedded\\gems\\gems\\vagrant-2.4.1\\bin\\vagrant"
+ INFO global: VAGRANT_INSTALLER_EMBEDDED_DIR="C:\\Program Files (x86)\\Vagrant\\embedded"
+ INFO global: VAGRANT_INSTALLER_ENV="1"
+ INFO global: VAGRANT_INSTALLER_VERSION="2"
+ INFO global: VAGRANT_LOG="debug"
+DEBUG global: vagrant ssl helper found for loading ssl providers
+DEBUG global: ssl providers successfully loaded
+ WARN global: resolv replacement has not been enabled!
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/autocomplete/plugin.rb
+ INFO manager: Registered plugin: autocomplete command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/box/plugin.rb
+ INFO manager: Registered plugin: box command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/cap/plugin.rb
+ INFO manager: Registered plugin: cap command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/cloud/plugin.rb
+ INFO manager: Registered plugin: vagrant-cloud
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/destroy/plugin.rb
+ INFO manager: Registered plugin: destroy command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/global-status/plugin.rb
+ INFO manager: Registered plugin: global-status command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/halt/plugin.rb
+ INFO manager: Registered plugin: halt command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/help/plugin.rb
+ INFO manager: Registered plugin: help command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/init/plugin.rb
+ INFO manager: Registered plugin: init command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/list-commands/plugin.rb
+ INFO manager: Registered plugin: list-commands command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/login/plugin.rb
+ INFO manager: Registered plugin: vagrant-login
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/package/plugin.rb
+ INFO manager: Registered plugin: package command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/plugin/plugin.rb
+ INFO manager: Registered plugin: plugin command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/port/plugin.rb
+ INFO manager: Registered plugin: port command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/powershell/plugin.rb
+ INFO manager: Registered plugin: powershell command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/provider/plugin.rb
+ INFO manager: Registered plugin: provider command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/provision/plugin.rb
+ INFO manager: Registered plugin: provision command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/push/plugin.rb
+ INFO manager: Registered plugin: push command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/rdp/plugin.rb
+ INFO manager: Registered plugin: rdp command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/reload/plugin.rb
+ INFO manager: Registered plugin: reload command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/resume/plugin.rb
+ INFO manager: Registered plugin: resume command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/serve/plugin.rb
+ INFO manager: Registered plugin: start Vagrant server
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/snapshot/plugin.rb
+ INFO manager: Registered plugin: snapshot command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/ssh_config/plugin.rb
+ INFO manager: Registered plugin: ssh-config command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/status/plugin.rb
+ INFO manager: Registered plugin: status command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/suspend/plugin.rb
+ INFO manager: Registered plugin: suspend command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/up/plugin.rb
+ INFO manager: Registered plugin: up command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/upload/plugin.rb
+ INFO manager: Registered plugin: upload command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/validate/plugin.rb
+ INFO manager: Registered plugin: validate command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/version/plugin.rb
+ INFO manager: Registered plugin: version command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/commands/winrm_config/plugin.rb
+ INFO manager: Registered plugin: winrm-config command
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/communicators/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh communicator
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/communicators/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm communicator
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/communicators/winssh/plugin.rb
+ INFO manager: Registered plugin: windows ssh communicator
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/alma/plugin.rb
+ INFO manager: Registered plugin: Alma guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/alpine/plugin.rb
+ INFO manager: Registered plugin: Alpine guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/amazon/plugin.rb
+ INFO manager: Registered plugin: Amazon Linux guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/arch/plugin.rb
+ INFO manager: Registered plugin: Arch guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/atomic/plugin.rb
+ INFO manager: Registered plugin: Atomic Host guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD-based guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/centos/plugin.rb
+ INFO manager: Registered plugin: CentOS guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/coreos/plugin.rb
+ INFO manager: Registered plugin: CoreOS guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/darwin/plugin.rb
+ INFO manager: Registered plugin: Darwin guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/debian/plugin.rb
+ INFO manager: Registered plugin: Debian guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/dragonflybsd/plugin.rb
+ INFO manager: Registered plugin: DragonFly BSD guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/elementary/plugin.rb
+ INFO manager: Registered plugin: Elementary guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/esxi/plugin.rb
+ INFO manager: Registered plugin: ESXi guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/fedora/plugin.rb
+ INFO manager: Registered plugin: Fedora guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/funtoo/plugin.rb
+ INFO manager: Registered plugin: Funtoo guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/haiku/plugin.rb
+ INFO manager: Registered plugin: Haiku guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/kali/plugin.rb
+ INFO manager: Registered plugin: Kali guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/linux/plugin.rb
+ INFO manager: Registered plugin: Linux guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/mint/plugin.rb
+ INFO manager: Registered plugin: Mint guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/netbsd/plugin.rb
+ INFO manager: Registered plugin: NetBSD guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/nixos/plugin.rb
+ INFO manager: Registered plugin: NixOS guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/omnios/plugin.rb
+ INFO manager: Registered plugin: OmniOS guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/openbsd/plugin.rb
+ INFO manager: Registered plugin: OpenBSD guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/openwrt/plugin.rb
+ INFO manager: Registered plugin: OpenWrt guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/photon/plugin.rb
+ INFO manager: Registered plugin: VMware Photon guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/pld/plugin.rb
+ INFO manager: Registered plugin: PLD Linux guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/rocky/plugin.rb
+ INFO manager: Registered plugin: Rocky guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/smartos/plugin.rb
+ INFO manager: Registered plugin: SmartOS guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/solaris/plugin.rb
+ INFO manager: Registered plugin: Solaris guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/solaris11/plugin.rb
+ INFO manager: Registered plugin: Solaris 11 guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/tinycore/plugin.rb
+ INFO manager: Registered plugin: TinyCore Linux guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/trisquel/plugin.rb
+ INFO manager: Registered plugin: Trisquel guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/ubuntu/plugin.rb
+ INFO manager: Registered plugin: Ubuntu guest
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/guests/windows/plugin.rb
+ INFO manager: Registered plugin: Windows guest.
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/arch/plugin.rb
+ INFO manager: Registered plugin: Arch host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/darwin/plugin.rb
+ INFO manager: Registered plugin: Mac OS X host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/linux/plugin.rb
+ INFO manager: Registered plugin: Linux host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/null/plugin.rb
+ INFO manager: Registered plugin: null host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/void/plugin.rb
+ INFO manager: Registered plugin: Void host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/hosts/windows/plugin.rb
+ INFO manager: Registered plugin: Windows host
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/kernel_v1/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/kernel_v2/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb
+ INFO manager: Registered plugin: docker-provider
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb
+ INFO manager: Registered plugin: Hyper-V provider
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb
+ INFO manager: Registered plugin: VirtualBox provider
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/ansible/plugin.rb
+ INFO manager: Registered plugin: ansible
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/cfengine/plugin.rb
+ INFO manager: Registered plugin: CFEngine Provisioner
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/chef/plugin.rb
+ INFO manager: Registered plugin: chef
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/container/plugin.rb
+ INFO manager: Registered plugin: container
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/docker/plugin.rb
+ INFO manager: Registered plugin: docker
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/file/plugin.rb
+ INFO manager: Registered plugin: file
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/podman/plugin.rb
+ INFO manager: Registered plugin: podman
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/puppet/plugin.rb
+ INFO manager: Registered plugin: puppet
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/salt/plugin.rb
+ INFO manager: Registered plugin: salt
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/provisioners/shell/plugin.rb
+ INFO manager: Registered plugin: shell
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/pushes/atlas/plugin.rb
+ INFO manager: Registered plugin: atlas
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/pushes/ftp/plugin.rb
+ INFO manager: Registered plugin: ftp
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/pushes/heroku/plugin.rb
+ INFO manager: Registered plugin: heroku
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/pushes/local-exec/plugin.rb
+ INFO manager: Registered plugin: local-exec
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/pushes/noop/plugin.rb
+ INFO manager: Registered plugin: noop
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/synced_folders/nfs/plugin.rb
+ INFO manager: Registered plugin: NFS synced folders
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/synced_folders/rsync/plugin.rb
+ INFO manager: Registered plugin: RSync synced folders
+DEBUG global: Loading core plugin: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/synced_folders/smb/plugin.rb
+ INFO manager: Registered plugin: SMB synced folders
+ INFO vagrant: `vagrant` invoked: ["up", "--debug"]
+DEBUG vagrant: Creating Vagrant environment
+ INFO environment: Environment initialized (#<Vagrant::Environment:0x06d16874>)
+ INFO environment:   - cwd: C:/lab/vagrant-kubeadm-kubernetes
+ INFO environment: Home path: C:/Users/HP/.vagrant.d
+DEBUG environment: Effective local data path: C:/lab/vagrant-kubeadm-kubernetes/.vagrant
+ INFO environment: Local data path: C:/lab/vagrant-kubeadm-kubernetes/.vagrant
+DEBUG environment: Creating: C:/lab/vagrant-kubeadm-kubernetes/.vagrant
+DEBUG manager: Enabling localized plugins
+ INFO manager: Plugins:
+DEBUG solution_file: new solution file instance plugin_file=C:/lab/vagrant-kubeadm-kubernetes/.vagrant/plugins.json solution_file=C:/lab/vagrant-kubeadm-kubernetes/.vagrant/bundler/local.sol
+DEBUG solution_file: missing file so skipping loading
+DEBUG bundler: solution file in use for init: <Vagrant::Bundler::SolutionFile:C:/lab/vagrant-kubeadm-kubernetes/.vagrant/plugins.json:C:/lab/vagrant-kubeadm-kubernetes/.vagrant/bundler/local.sol:invalid>
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: generating solution set for configured plugins
+DEBUG bundler: Current generated plugin dependency list: []
+DEBUG bundler: resolving solution from available specification set
+DEBUG bundler: solution set for configured plugins has been resolved
+DEBUG bundler: activating solution set
+DEBUG bundler: Activating solution set: []
+DEBUG solution_file: plugin file does not exist, not storing solution
+DEBUG bundler: solution set stored to - <Vagrant::Bundler::SolutionFile:C:/lab/vagrant-kubeadm-kubernetes/.vagrant/plugins.json:C:/lab/vagrant-kubeadm-kubernetes/.vagrant/bundler/local.sol:invalid>
+ INFO manager: Loading plugins...
+DEBUG manager: Enabling globalized plugins
+ INFO manager: Plugins:
+DEBUG solution_file: new solution file instance plugin_file=C:/Users/HP/.vagrant.d/plugins.json solution_file=C:/lab/vagrant-kubeadm-kubernetes/.vagrant/bundler/global.sol
+DEBUG solution_file: missing file so skipping loading
+DEBUG bundler: solution file in use for init: <Vagrant::Bundler::SolutionFile:C:/Users/HP/.vagrant.d/plugins.json:C:/lab/vagrant-kubeadm-kubernetes/.vagrant/bundler/global.sol:invalid>
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: generating solution set for configured plugins
+DEBUG bundler: Current generated plugin dependency list: []
+DEBUG bundler: resolving solution from available specification set
+DEBUG bundler: solution set for configured plugins has been resolved
+DEBUG bundler: activating solution set
+DEBUG bundler: Activating solution set: []
+DEBUG solution_file: plugin file does not exist, not storing solution
+DEBUG bundler: solution set stored to - <Vagrant::Bundler::SolutionFile:C:/Users/HP/.vagrant.d/plugins.json:C:/lab/vagrant-kubeadm-kubernetes/.vagrant/bundler/global.sol:invalid>
+ INFO manager: Loading plugins...
+ INFO loader: Set :root = ["#<Pathname:C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile>
+DEBUG loader: Load procs for pathname: C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile
+ INFO loader: Loading configuration in order: [:home, :root]
+DEBUG loader: Loading from: root (evaluating)
+DEBUG provisioner: Provisioner defined:
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO subprocess: Starting process: ["C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "Write-Output $PSVersionTable.PSVersion.Major"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 29
+DEBUG subprocess: Exit status: 0
+ INFO subprocess: Starting process: ["C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "(new-object System.Security.Principal.WindowsPrincipal([System.Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator)"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+ INFO subprocess: Starting process: ["C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "Write-Output ([System.Security.Principal.WindowsIdentity]::GetCurrent().Groups | Select-Object Value | ConvertTo-JSON)"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+ INFO subprocess: Starting process: ["C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0/powershell.EXE", "-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", "$x = (Get-VMHost).Name; if($x -eq [System.Net.Dns]::GetHostName()){ Write-Output 'true'}"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31997
+DEBUG subprocess: Exit status: 1
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: validating LANG value for virtualbox cli commands
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/locale.EXE", "-a"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+DEBUG meta: list of available C locales: ["C", "C.utf8", "POSIX", "en_US.utf8"]
+DEBUG meta: valid variation found for LANG value: C.utf8
+DEBUG meta: LANG value set: "C.utf8"
+ INFO subprocess: Starting process: ["C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", "--version"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` as it is the highest priority in the usable list.
+ INFO loader: Set "460_machine_controlplane" = ["[\"2\", #<Proc:0x06ba4e3c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:29>]"]
+DEBUG loader: Populating proc cache for ["2", #<Proc:0x06ba4e3c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:29>]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_controlplane"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_controlplane (evaluating)
+DEBUG provisioner: Provisioner defined:
+DEBUG provisioner: Provisioner defined:
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO loader: Set "460_machine_node01" = ["[\"2\", #<Proc:0x06ba4a40 C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+DEBUG loader: Populating proc cache for ["2", #<Proc:0x06ba4a40 C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node01"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node01 (evaluating)
+DEBUG provisioner: Provisioner defined:
+DEBUG provisioner: Provisioner defined:
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO loader: Set "460_machine_node02" = ["[\"2\", #<Proc:0x06ba452c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+DEBUG loader: Populating proc cache for ["2", #<Proc:0x06ba452c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node02"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node01"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node02 (evaluating)
+DEBUG provisioner: Provisioner defined:
+DEBUG provisioner: Provisioner defined:
+DEBUG provisioner: Provisioner defined:
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO environment: Running hook: environment_plugins_loaded
+ INFO runner: Running action: environment_plugins_loaded #<Vagrant::Action::Builder:0x075eb5bc>
+ INFO environment: Running hook: environment_load
+ INFO runner: Running action: environment_load #<Vagrant::Action::Builder:0x05e2baf8>
+DEBUG checkpoint_client: starting plugin check
+ INFO cli: CLI: [] "up" []
+DEBUG checkpoint_client: plugin check complete
+DEBUG cli: Invoking command class: VagrantPlugins::CommandUp::Command []
+DEBUG checkpoint_client: no information received from checkpoint
+DEBUG command: 'Up' each target VM...
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["controlplane", "node01", "node02"]
+DEBUG command:  -- options: {:provider=>nil}
+ INFO command: getting active machines
+DEBUG command: Finding machine that match name: controlplane
+ INFO loader: Set "460_machine_controlplane" = ["[\"2\", #<Proc:0x06ba4e3c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:29>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_controlplane"]
+ WARN loader: Unknown config sources: ["460_machine_node01", "460_machine_node02"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_controlplane (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` detected in configuration and usable.
+ INFO environment: Getting machine: controlplane (virtualbox)
+ INFO environment: Uncached load of machine.
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO loader: Set "460_machine_controlplane" = ["[\"2\", #<Proc:0x06ba4e3c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:29>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_controlplane"]
+ WARN loader: Unknown config sources: ["460_machine_node01", "460_machine_node02"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_controlplane (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO vmconfig: looking up provider config for: :virtualbox
+ INFO vmconfig: provider config value that was stored: #<VagrantPlugins::ProviderVirtualBox::Config:0x05df8cfc @auto_nat_dns_proxy=true, @check_guest_additions=true, @customizations=[["pre-boot", ["modifyvm", :id, "--cpus", 2]], ["pre-boot", ["modifyvm", :id, "--memory", "4096"]], ["pre-boot", ["modifyvm", :id, "--groups", "/Kubernetes Cluster"]]], @default_nic_type=nil, @destroy_unused_network_interfaces=false, @functional_vboxsf=true, @name=nil, @network_adapters={1=>[:nat, {}]}, @gui=false, @linked_clone=false, @linked_clone_snapshot=nil, @__invalid_methods=#<Set: {}>>
+ INFO machine: Initializing machine: controlplane
+ INFO machine:   - Provider: VagrantPlugins::ProviderVirtualBox::Provider
+ INFO machine:   - Box:
+ INFO machine:   - Data dir: C:/lab/vagrant-kubeadm-kubernetes/.vagrant/machines/controlplane/virtualbox
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO machine: New machine ID: nil
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO interface: Machine: metadata ["provider", :virtualbox, {:target=>:controlplane}]
+DEBUG command: Finding machine that match name: node01
+ INFO loader: Set "460_machine_node01" = ["[\"2\", #<Proc:0x06ba4a40 C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node01"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node02"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node01 (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` detected in configuration and usable.
+ INFO environment: Getting machine: node01 (virtualbox)
+ INFO environment: Uncached load of machine.
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO loader: Set "460_machine_node01" = ["[\"2\", #<Proc:0x06ba4a40 C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node01"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node02"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node01 (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO vmconfig: looking up provider config for: :virtualbox
+ INFO vmconfig: provider config value that was stored: #<VagrantPlugins::ProviderVirtualBox::Config:0x07530654 @auto_nat_dns_proxy=true, @check_guest_additions=true, @customizations=[["pre-boot", ["modifyvm", :id, "--cpus", 1]], ["pre-boot", ["modifyvm", :id, "--memory", "2048"]], ["pre-boot", ["modifyvm", :id, "--groups", "/Kubernetes Cluster"]]], @default_nic_type=nil, @destroy_unused_network_interfaces=false, @functional_vboxsf=true, @name=nil, @network_adapters={1=>[:nat, {}]}, @gui=false, @linked_clone=false, @linked_clone_snapshot=nil, @__invalid_methods=#<Set: {}>>
+ INFO machine: Initializing machine: node01
+ INFO machine:   - Provider: VagrantPlugins::ProviderVirtualBox::Provider
+ INFO machine:   - Box:
+ INFO machine:   - Data dir: C:/lab/vagrant-kubeadm-kubernetes/.vagrant/machines/node01/virtualbox
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO machine: New machine ID: nil
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO interface: Machine: metadata ["provider", :virtualbox, {:target=>:node01}]
+DEBUG command: Finding machine that match name: node02
+ INFO loader: Set "460_machine_node02" = ["[\"2\", #<Proc:0x06ba452c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node02"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node01"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node02 (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` detected in configuration and usable.
+ INFO environment: Getting machine: node02 (virtualbox)
+ INFO environment: Uncached load of machine.
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO loader: Set "460_machine_node02" = ["[\"2\", #<Proc:0x06ba452c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node02"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node01"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node02 (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO box_collection: Box not found: bento/ubuntu-24.04 (virtualbox)
+ INFO vmconfig: looking up provider config for: :virtualbox
+ INFO vmconfig: provider config value that was stored: #<VagrantPlugins::ProviderVirtualBox::Config:0x07522b94 @auto_nat_dns_proxy=true, @check_guest_additions=true, @customizations=[["pre-boot", ["modifyvm", :id, "--cpus", 1]], ["pre-boot", ["modifyvm", :id, "--memory", "2048"]], ["pre-boot", ["modifyvm", :id, "--groups", "/Kubernetes Cluster"]]], @default_nic_type=nil, @destroy_unused_network_interfaces=false, @functional_vboxsf=true, @name=nil, @network_adapters={1=>[:nat, {}]}, @gui=false, @linked_clone=false, @linked_clone_snapshot=nil, @__invalid_methods=#<Set: {}>>
+ INFO machine: Initializing machine: node02
+ INFO machine:   - Provider: VagrantPlugins::ProviderVirtualBox::Provider
+ INFO machine:   - Box:
+ INFO machine:   - Data dir: C:/lab/vagrant-kubeadm-kubernetes/.vagrant/machines/node02/virtualbox
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO machine: New machine ID: nil
+DEBUG virtualbox: Instantiating the driver for machine ID: nil
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO interface: Machine: metadata ["provider", :virtualbox, {:target=>:node02}]
+DEBUG command: have machine list to process
+ INFO command: With machine: controlplane (#<VagrantPlugins::ProviderVirtualBox::Provider:0x06f7a714 @logger=#<Log4r::Logger:0x06f7a6c4 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machine=#<Vagrant::Machine: controlplane (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x074d8bd4 @logger=#<Log4r::Logger:0x07574750 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x06f7a6c4 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0:0x0755e11c @logger=#<Log4r::Logger:0x05faa6e0 @fullname="vagrant::provider::virtualbox_7_0", @outputters=[], @additive=true, @name="virtualbox_7_0", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil>, @version="7.0.20">, @cap_logger=#<Log4r::Logger:0x07479e68 @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x0747ae08>:0x074db9d8>]], @cap_args=[#<Vagrant::Machine: controlplane (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x0747a19c @items={:public_address=>#<Proc:0x06b0d438 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:63>, :proxy_machine=>#<Proc:0x06b0d3c0 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:68>, :has_communicator=>#<Proc:0x06b0d348 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:73>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x0747a138 @items={:public_address=>#<Proc:0x06ced6cc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:28>, :snapshot_list=>#<Proc:0x06ced67c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:33>, :configure_disks=>#<Proc:0x06ced654 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:38>, :cleanup_disks=>#<Proc:0x06ced62c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:43>, :validate_disk_ext=>#<Proc:0x06ced604 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:48>, :default_disk_exts=>#<Proc:0x06ced5dc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:53>, :set_default_disk_ext=>#<Proc:0x06ced5b4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:58>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x0747a0d4 @items={:forwarded_ports=>#<Proc:0x06b14030 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:30>, :nic_mac_addresses=>#<Proc:0x06b14008 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:35>, :public_address=>#<Proc:0x06b27fcc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:40>, :configure_disks=>#<Proc:0x06b27fa4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:45>, :cleanup_disks=>#<Proc:0x06b27f7c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:50>, :validate_disk_ext=>#<Proc:0x06b27f54 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:55>, :default_disk_exts=>#<Proc:0x06b27f2c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:60>, :set_default_disk_ext=>#<Proc:0x06b27f04 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:65>, :snapshot_list=>#<Proc:0x06b27edc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:70>}, @results_cache={}>}>)
+ INFO command: With machine: node01 (#<VagrantPlugins::ProviderVirtualBox::Provider:0x059ef8a4 @logger=#<Log4r::Logger:0x059ef660 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machine=#<Vagrant::Machine: node01 (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x072543cc @logger=#<Log4r::Logger:0x073c2588 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x059ef660 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0:0x05bc78fc @logger=#<Log4r::Logger:0x07533d68 @fullname="vagrant::provider::virtualbox_7_0", @outputters=[], @additive=true, @name="virtualbox_7_0", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil>, @version="7.0.20">, @cap_logger=#<Log4r::Logger:0x0731de0c @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x0731e190>:0x072561cc>]], @cap_args=[#<Vagrant::Machine: node01 (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x0731e0a0 @items={:public_address=>#<Proc:0x06b0d438 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:63>, :proxy_machine=>#<Proc:0x06b0d3c0 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:68>, :has_communicator=>#<Proc:0x06b0d348 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:73>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x0731e03c @items={:public_address=>#<Proc:0x06ced6cc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:28>, :snapshot_list=>#<Proc:0x06ced67c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:33>, :configure_disks=>#<Proc:0x06ced654 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:38>, :cleanup_disks=>#<Proc:0x06ced62c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:43>, :validate_disk_ext=>#<Proc:0x06ced604 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:48>, :default_disk_exts=>#<Proc:0x06ced5dc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:53>, :set_default_disk_ext=>#<Proc:0x06ced5b4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:58>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x0731df88 @items={:forwarded_ports=>#<Proc:0x06b14030 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:30>, :nic_mac_addresses=>#<Proc:0x06b14008 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:35>, :public_address=>#<Proc:0x06b27fcc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:40>, :configure_disks=>#<Proc:0x06b27fa4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:45>, :cleanup_disks=>#<Proc:0x06b27f7c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:50>, :validate_disk_ext=>#<Proc:0x06b27f54 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:55>, :default_disk_exts=>#<Proc:0x06b27f2c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:60>, :set_default_disk_ext=>#<Proc:0x06b27f04 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:65>, :snapshot_list=>#<Proc:0x06b27edc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:70>}, @results_cache={}>}>)
+ INFO command: With machine: node02 (#<VagrantPlugins::ProviderVirtualBox::Provider:0x0761fe20 @logger=#<Log4r::Logger:0x0761fdd0 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machine=#<Vagrant::Machine: node02 (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x0731f694 @logger=#<Log4r::Logger:0x05b948a8 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x0761fdd0 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0:0x05c0ccf4 @logger=#<Log4r::Logger:0x0759c138 @fullname="vagrant::provider::virtualbox_7_0", @outputters=[], @additive=true, @name="virtualbox_7_0", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil>, @version="7.0.20">, @cap_logger=#<Log4r::Logger:0x071f8b58 @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x071f8d4c>:0x07340cf4>]], @cap_args=[#<Vagrant::Machine: node02 (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x071f8cac @items={:public_address=>#<Proc:0x06b0d438 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:63>, :proxy_machine=>#<Proc:0x06b0d3c0 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:68>, :has_communicator=>#<Proc:0x06b0d348 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:73>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x071f8c5c @items={:public_address=>#<Proc:0x06ced6cc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:28>, :snapshot_list=>#<Proc:0x06ced67c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:33>, :configure_disks=>#<Proc:0x06ced654 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:38>, :cleanup_disks=>#<Proc:0x06ced62c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:43>, :validate_disk_ext=>#<Proc:0x06ced604 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:48>, :default_disk_exts=>#<Proc:0x06ced5dc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:53>, :set_default_disk_ext=>#<Proc:0x06ced5b4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:58>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x071f8c0c @items={:forwarded_ports=>#<Proc:0x06b14030 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:30>, :nic_mac_addresses=>#<Proc:0x06b14008 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:35>, :public_address=>#<Proc:0x06b27fcc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:40>, :configure_disks=>#<Proc:0x06b27fa4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:45>, :cleanup_disks=>#<Proc:0x06b27f7c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:50>, :validate_disk_ext=>#<Proc:0x06b27f54 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:55>, :default_disk_exts=>#<Proc:0x06b27f2c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:60>, :set_default_disk_ext=>#<Proc:0x06b27f04 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:65>, :snapshot_list=>#<Proc:0x06b27edc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:70>}, @results_cache={}>}>)
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["controlplane", "node01", "node02"]
+DEBUG command:  -- options: {:provider=>nil}
+ INFO command: getting active machines
+DEBUG command: Finding machine that match name: controlplane
+ INFO loader: Set "460_machine_controlplane" = ["[\"2\", #<Proc:0x06ba4e3c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:29>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_controlplane"]
+ WARN loader: Unknown config sources: ["460_machine_node01", "460_machine_node02"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_controlplane (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` detected in configuration and usable.
+ INFO environment: Getting machine: controlplane (virtualbox)
+ INFO environment: Returning cached machine: controlplane (virtualbox)
+DEBUG command: Finding machine that match name: node01
+ INFO loader: Set "460_machine_node01" = ["[\"2\", #<Proc:0x06ba4a40 C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node01"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node02"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node01 (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` detected in configuration and usable.
+ INFO environment: Getting machine: node01 (virtualbox)
+ INFO environment: Returning cached machine: node01 (virtualbox)
+DEBUG command: Finding machine that match name: node02
+ INFO loader: Set "460_machine_node02" = ["[\"2\", #<Proc:0x06ba452c C:/lab/vagrant-kubeadm-kubernetes/Vagrantfile:65>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "460_machine_node02"]
+ WARN loader: Unknown config sources: ["460_machine_controlplane", "460_machine_node01"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 460_machine_node02 (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
+ WARN vagrantfile: Failed to locate bento/ubuntu-24.04 with version
+ WARN vagrantfile: Performing lookup with initial values bento/ubuntu-24.04 with version
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG environment: Initial usable provider list: [[6, :virtualbox]]
+DEBUG environment: Priority sorted usable provider list: [:virtualbox]
+DEBUG environment: Preferred provider list: []
+DEBUG environment: Using provider `virtualbox` detected in configuration and usable.
+ INFO environment: Getting machine: node02 (virtualbox)
+ INFO environment: Returning cached machine: node02 (virtualbox)
+DEBUG command: have machine list to process
+ INFO command: With machine: controlplane (#<VagrantPlugins::ProviderVirtualBox::Provider:0x06f7a714 @logger=#<Log4r::Logger:0x06f7a6c4 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machine=#<Vagrant::Machine: controlplane (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x074d8bd4 @logger=#<Log4r::Logger:0x07574750 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x06f7a6c4 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0:0x0755e11c @logger=#<Log4r::Logger:0x05faa6e0 @fullname="vagrant::provider::virtualbox_7_0", @outputters=[], @additive=true, @name="virtualbox_7_0", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil>, @version="7.0.20">, @cap_logger=#<Log4r::Logger:0x07479e68 @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x0747ae08>:0x074db9d8>]], @cap_args=[#<Vagrant::Machine: controlplane (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x0747a19c @items={:public_address=>#<Proc:0x06b0d438 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:63>, :proxy_machine=>#<Proc:0x06b0d3c0 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:68>, :has_communicator=>#<Proc:0x06b0d348 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:73>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x0747a138 @items={:public_address=>#<Proc:0x06ced6cc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:28>, :snapshot_list=>#<Proc:0x06ced67c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:33>, :configure_disks=>#<Proc:0x06ced654 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:38>, :cleanup_disks=>#<Proc:0x06ced62c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:43>, :validate_disk_ext=>#<Proc:0x06ced604 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:48>, :default_disk_exts=>#<Proc:0x06ced5dc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:53>, :set_default_disk_ext=>#<Proc:0x06ced5b4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:58>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x0747a0d4 @items={:forwarded_ports=>#<Proc:0x06b14030 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:30>, :nic_mac_addresses=>#<Proc:0x06b14008 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:35>, :public_address=>#<Proc:0x06b27fcc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:40>, :configure_disks=>#<Proc:0x06b27fa4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:45>, :cleanup_disks=>#<Proc:0x06b27f7c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:50>, :validate_disk_ext=>#<Proc:0x06b27f54 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:55>, :default_disk_exts=>#<Proc:0x06b27f2c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:60>, :set_default_disk_ext=>#<Proc:0x06b27f04 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:65>, :snapshot_list=>#<Proc:0x06b27edc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:70>}, @results_cache={}>}>)
+ INFO interface: info: Bringing machine 'controlplane' up with 'virtualbox' provider...
+Bringing machine 'controlplane' up with 'virtualbox' provider...
+ INFO command: With machine: node01 (#<VagrantPlugins::ProviderVirtualBox::Provider:0x059ef8a4 @logger=#<Log4r::Logger:0x059ef660 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machine=#<Vagrant::Machine: node01 (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x072543cc @logger=#<Log4r::Logger:0x073c2588 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x059ef660 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0:0x05bc78fc @logger=#<Log4r::Logger:0x07533d68 @fullname="vagrant::provider::virtualbox_7_0", @outputters=[], @additive=true, @name="virtualbox_7_0", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil>, @version="7.0.20">, @cap_logger=#<Log4r::Logger:0x0731de0c @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x0731e190>:0x072561cc>]], @cap_args=[#<Vagrant::Machine: node01 (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x0731e0a0 @items={:public_address=>#<Proc:0x06b0d438 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:63>, :proxy_machine=>#<Proc:0x06b0d3c0 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:68>, :has_communicator=>#<Proc:0x06b0d348 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:73>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x0731e03c @items={:public_address=>#<Proc:0x06ced6cc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:28>, :snapshot_list=>#<Proc:0x06ced67c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:33>, :configure_disks=>#<Proc:0x06ced654 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:38>, :cleanup_disks=>#<Proc:0x06ced62c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:43>, :validate_disk_ext=>#<Proc:0x06ced604 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:48>, :default_disk_exts=>#<Proc:0x06ced5dc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:53>, :set_default_disk_ext=>#<Proc:0x06ced5b4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:58>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x0731df88 @items={:forwarded_ports=>#<Proc:0x06b14030 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:30>, :nic_mac_addresses=>#<Proc:0x06b14008 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:35>, :public_address=>#<Proc:0x06b27fcc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:40>, :configure_disks=>#<Proc:0x06b27fa4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:45>, :cleanup_disks=>#<Proc:0x06b27f7c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:50>, :validate_disk_ext=>#<Proc:0x06b27f54 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:55>, :default_disk_exts=>#<Proc:0x06b27f2c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:60>, :set_default_disk_ext=>#<Proc:0x06b27f04 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:65>, :snapshot_list=>#<Proc:0x06b27edc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:70>}, @results_cache={}>}>)
+ INFO interface: info: Bringing machine 'node01' up with 'virtualbox' provider...
+Bringing machine 'node01' up with 'virtualbox' provider...
+ INFO command: With machine: node02 (#<VagrantPlugins::ProviderVirtualBox::Provider:0x0761fe20 @logger=#<Log4r::Logger:0x0761fdd0 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @machine=#<Vagrant::Machine: node02 (VagrantPlugins::ProviderVirtualBox::Provider)>, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Meta:0x0731f694 @logger=#<Log4r::Logger:0x05b948a8 @fullname="vagrant::provider::virtualbox::meta", @outputters=[], @additive=true, @name="meta", @path="vagrant::provider::virtualbox", @parent=#<Log4r::Logger:0x0761fdd0 @fullname="vagrant::provider::virtualbox", @outputters=[], @additive=true, @name="virtualbox", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil, @driver=#<VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0:0x05c0ccf4 @logger=#<Log4r::Logger:0x0759c138 @fullname="vagrant::provider::virtualbox_7_0", @outputters=[], @additive=true, @name="virtualbox_7_0", @path="vagrant::provider", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @interrupted=false, @vboxmanage_path="C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", @uuid=nil>, @version="7.0.20">, @cap_logger=#<Log4r::Logger:0x071f8b58 @fullname="vagrant::capability_host::vagrantplugins::providervirtualbox::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providervirtualbox", @parent=#<VagrantLogger:0x05e41bdc @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x05e524c8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x05eef458 @formatter=#<Log4r::BasicFormatter:0x05ee1c04 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x05e41a60 @level=2, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:virtualbox, #<#<Class:0x071f8d4c>:0x07340cf4>]], @cap_args=[#<Vagrant::Machine: node02 (VagrantPlugins::ProviderVirtualBox::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x071f8cac @items={:public_address=>#<Proc:0x06b0d438 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:63>, :proxy_machine=>#<Proc:0x06b0d3c0 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:68>, :has_communicator=>#<Proc:0x06b0d348 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/docker/plugin.rb:73>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x071f8c5c @items={:public_address=>#<Proc:0x06ced6cc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:28>, :snapshot_list=>#<Proc:0x06ced67c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:33>, :configure_disks=>#<Proc:0x06ced654 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:38>, :cleanup_disks=>#<Proc:0x06ced62c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:43>, :validate_disk_ext=>#<Proc:0x06ced604 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:48>, :default_disk_exts=>#<Proc:0x06ced5dc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:53>, :set_default_disk_ext=>#<Proc:0x06ced5b4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/hyperv/plugin.rb:58>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x071f8c0c @items={:forwarded_ports=>#<Proc:0x06b14030 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:30>, :nic_mac_addresses=>#<Proc:0x06b14008 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:35>, :public_address=>#<Proc:0x06b27fcc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:40>, :configure_disks=>#<Proc:0x06b27fa4 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:45>, :cleanup_disks=>#<Proc:0x06b27f7c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:50>, :validate_disk_ext=>#<Proc:0x06b27f54 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:55>, :default_disk_exts=>#<Proc:0x06b27f2c C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:60>, :set_default_disk_ext=>#<Proc:0x06b27f04 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:65>, :snapshot_list=>#<Proc:0x06b27edc C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/plugin.rb:70>}, @results_cache={}>}>)
+ INFO interface: info: Bringing machine 'node02' up with 'virtualbox' provider...
+Bringing machine 'node02' up with 'virtualbox' provider...
+ INFO batch_action: Enabling parallelization by default.
+ INFO batch_action: Disabling parallelization because provider doesn't support it: virtualbox
+ INFO batch_action: Batch action will parallelize: false
+ INFO batch_action: Starting action: #<Vagrant::Machine:0x06c5e454> up {:destroy_on_error=>true, :install_provider=>false, :parallel=>true, :provision_ignore_sentinel=>false, :provision_types=>nil}
+ INFO machine: Calling action: up on provider VirtualBox (new VM)
+DEBUG environment: Attempting to acquire process-lock: machine-action-ddacb4878cb1c3ea480bc4e34fb96c13
+DEBUG environment: Attempting to acquire process-lock: dotlock
+ INFO environment: Acquired process lock: dotlock
+ INFO environment: Released process lock: dotlock
+ INFO environment: Acquired process lock: machine-action-ddacb4878cb1c3ea480bc4e34fb96c13
+ INFO interface: Machine: action ["up", "start", {:target=>:controlplane}]
+ INFO host: Autodetecting host type for [#<Vagrant::Environment: C:/lab/vagrant-kubeadm-kubernetes>]
+DEBUG host: Trying: alt
+DEBUG host: Trying: arch
+DEBUG host: Trying: darwin
+DEBUG host: Trying: freebsd
+DEBUG host: Trying: gentoo
+DEBUG host: Trying: redhat
+DEBUG host: Trying: slackware
+DEBUG host: Trying: suse
+DEBUG host: Trying: void
+DEBUG host: Trying: bsd
+DEBUG host: Trying: linux
+DEBUG host: Trying: null
+DEBUG host: Trying: windows
+ INFO host: Detected: windows!
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x071fa7dc>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::CheckVirtualbox:0x06ae2314>
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+DEBUG meta: Finding driver for VirtualBox version: 7.0.20
+ INFO meta: Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_7_0
+DEBUG base: Windows, checking for VBoxManage on PATH first
+DEBUG base: Windows. Trying VBOX_INSTALL_PATH for VBoxManage
+DEBUG base: VBOX_INSTALL_PATH value: C:\Program Files\Oracle\VirtualBox\
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/Program Files/Oracle/VirtualBox/VBoxManage.exe"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO base: VBoxManage path: C:/Program Files/Oracle/VirtualBox/VBoxManage.exe
+ INFO subprocess: Starting process: ["C:/Program Files/Oracle/VirtualBox/VBoxManage.exe", "list", "hostonlyifs"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x06bc2f2c>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x076e0314>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::Created:0x06bc3ee0>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderVirtualBox::Action::Created:0x06bc3ee0>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x071fb948>
+ INFO warden: Calling IN action: #<Proc:0x07523774 C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:116 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::HandleBox:0x071fb844>
+ INFO interface: output: Box 'bento/ubuntu-24.04' could not be found. Attempting to find and install...
+ INFO interface: output: ==> controlplane: Box 'bento/ubuntu-24.04' could not be found. Attempting to find and install...
+==> controlplane: Box 'bento/ubuntu-24.04' could not be found. Attempting to find and install...
+ INFO interface: detail: Box Provider: virtualbox
+ INFO interface: detail:     controlplane: Box Provider: virtualbox
+    controlplane: Box Provider: virtualbox
+ INFO interface: detail: Box Version: >= 0
+ INFO interface: detail:     controlplane: Box Version: >= 0
+    controlplane: Box Version: >= 0
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x0757685c>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BoxAdd:0x06a8a678>
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\usr\\bin/cygpath.EXE", "-w", "-l", "-a", "C:/lab/vagrant-kubeadm-kubernetes/bento/ubuntu-24.04"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO environment: Running hook: authenticate_box_url
+ INFO runner: Running action: authenticate_box_url #<Vagrant::Action::Builder:0x06f79cc4>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddAuthentication:0x05bc6a24>
+ WARN authenticate-box-url: Authentication token not found as GET parameter.
+ WARN authenticate-box-url: Authentication token not found as GET parameter.
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddAuthentication:0x05bc6a24>
+ INFO box_add: Downloading box: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04 => C:/Users/HP/.vagrant.d/tmp/boxca234636cc2375a59266bc9db2932b86b7e46682
+ INFO environment: Running hook: authenticate_box_downloader
+ INFO runner: Running action: authenticate_box_downloader #<Vagrant::Action::Builder:0x0755c380>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x05becb0c>
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x05becb0c>
+ INFO environment: Running hook: authenticate_box_downloader
+ INFO runner: Running action: authenticate_box_downloader #<Vagrant::Action::Builder:0x0731f338>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x0749edf8>
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x0749edf8>
+ INFO downloader: HEAD: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\mingw32\\bin/curl.EXE", "-q", "-I", "--fail", "--location", "--max-redirs", "10", "--verbose", "--user-agent", "Vagrant/2.4.1 (+https://www.vagrantup.com; ruby3.1.4)", "--continue-at", "-", "--ssl-revoke-best-effort", "-H", "Accept: application/json", "https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+ INFO box_add: Downloading box: https://vagrantcloud.com/bento/ubuntu-24.04 => C:/Users/HP/.vagrant.d/tmp/box86d5298a9559968c41cfaf1aea3ef44a8a604a13
+ INFO environment: Running hook: authenticate_box_downloader
+ INFO runner: Running action: authenticate_box_downloader #<Vagrant::Action::Builder:0x07aec340>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x07b2521c>
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x07b2521c>
+ INFO environment: Running hook: authenticate_box_downloader
+ INFO runner: Running action: authenticate_box_downloader #<Vagrant::Action::Builder:0x07b8d81c>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x07bd66fc>
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x07bd66fc>
+ INFO downloader: HEAD: https://vagrantcloud.com/bento/ubuntu-24.04
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\mingw32\\bin/curl.EXE", "-q", "-I", "--fail", "--location", "--max-redirs", "10", "--verbose", "--user-agent", "Vagrant/2.4.1 (+https://www.vagrantup.com; ruby3.1.4)", "--continue-at", "-", "--ssl-revoke-best-effort", "-H", "Accept: application/json", "https://vagrantcloud.com/bento/ubuntu-24.04"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31997
+DEBUG subprocess: Exit status: 0
+ INFO interface: output: Loading metadata for box 'bento/ubuntu-24.04'
+ INFO interface: output: ==> controlplane: Loading metadata for box 'bento/ubuntu-24.04'
+==> controlplane: Loading metadata for box 'bento/ubuntu-24.04'
+ INFO interface: detail: URL: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+ INFO interface: detail:     controlplane: URL: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+    controlplane: URL: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+ INFO box_add: Downloading box: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04 => C:/Users/HP/.vagrant.d/tmp/boxca234636cc2375a59266bc9db2932b86b7e46682
+ INFO environment: Running hook: authenticate_box_downloader
+ INFO runner: Running action: authenticate_box_downloader #<Vagrant::Action::Builder:0x07e37018>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x07e97ef4>
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x07e97ef4>
+ INFO environment: Running hook: authenticate_box_downloader
+ INFO runner: Running action: authenticate_box_downloader #<Vagrant::Action::Builder:0x07fdc4f4>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x080693b8>
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+DEBUG client: No authentication token in environment or C:/Users/HP/.vagrant.d/data/vagrant_login_token
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x080693b8>
+ INFO downloader: Downloader starting download:
+ INFO downloader:   -- Source: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+ INFO downloader:   -- Destination: C:/Users/HP/.vagrant.d/tmp/boxca234636cc2375a59266bc9db2932b86b7e46682
+ INFO subprocess: Starting process: ["C:\\Program Files (x86)\\Vagrant\\embedded\\mingw32\\bin/curl.EXE", "-q", "--fail", "--location", "--max-redirs", "10", "--verbose", "--user-agent", "Vagrant/2.4.1 (+https://www.vagrantup.com; ruby3.1.4)", "--continue-at", "-", "--ssl-revoke-best-effort", "-H", "Accept: application/json", "--output", "C:/Users/HP/.vagrant.d/tmp/boxca234636cc2375a59266bc9db2932b86b7e46682", "https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04"]
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+ERROR warden: Error occurred: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+ INFO warden: Beginning recovery process...
+ INFO warden: Calling recover: #<Vagrant::Action::Builtin::Call:0x06bc2f2c>
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO environment: Released process lock: machine-action-ddacb4878cb1c3ea480bc4e34fb96c13
+ INFO environment: Running hook: environment_unload
+ INFO runner: Running action: environment_unload #<Vagrant::Action::Builder:0x06bcec3c>
+ERROR vagrant: Vagrant experienced an error! Details:
+ERROR vagrant: #<Vagrant::Errors::BoxAddNoMatchingProvider: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)>
+ERROR vagrant: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+ERROR vagrant: C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/box_add.rb:268:in `add_from_metadata'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/box_add.rb:158:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:38:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builder.rb:183:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/runner.rb:104:in `block in run'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/util/busy.rb:22:in `busy'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/runner.rb:104:in `run'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/handle_box.rb:87:in `handle_box'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/handle_box.rb:45:in `block in call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/handle_box.rb:39:in `synchronize'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/handle_box.rb:39:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:38:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:117:in `block in finalize_action'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:38:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builder.rb:183:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/runner.rb:104:in `block in run'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/util/busy.rb:22:in `busy'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/runner.rb:104:in `run'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builtin/call.rb:56:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:38:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/plugins/providers/virtualbox/action/check_virtualbox.rb:23:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/warden.rb:38:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/builder.rb:183:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/runner.rb:104:in `block in run'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/util/busy.rb:22:in `busy'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/action/runner.rb:104:in `run'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/machine.rb:247:in `action_raw'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/machine.rb:216:in `block in action'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/environment.rb:649:in `lock'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/machine.rb:202:in `call'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/machine.rb:202:in `action'
+C:/Program Files (x86)/Vagrant/embedded/gems/gems/vagrant-2.4.1/lib/vagrant/batch_action.rb:89:in `block (2 levels) in run'
+ INFO interface: error: The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is
+released.
+
+Name: bento/ubuntu-24.04
+Address: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04
+Requested provider: virtualbox (i386)
+ INFO interface: Machine: error-exit ["Vagrant::Errors::BoxAddNoMatchingProvider", "The box you're attempting to add doesn't support the provider\nyou requested. Please find an alternate box or use an alternate\nprovider. Double-check your requested provider to verify you didn't\nsimply misspell it.\n\nIf you're adding a box from HashiCorp's Vagrant Cloud, make sure the box is\nreleased.\n\nName: bento/ubuntu-24.04\nAddress: https://vagrantcloud.com/api/v2/vagrant/bento/ubuntu-24.04\nRequested provider: virtualbox (i386)"]
+                                                                                                                                                       ?
+
+ ? 27/09/2024 ? ? 23:41.04 ? ? /drives/c/lab/vagrant-kubeadm-kubernetes ? ? main ?
